@@ -4,16 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- CSS -->
     <link rel="stylesheet" href="styles.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <title>Title</title>
+    <!-- Icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Lauamängu Info</title>
 </head>
 <body>
 <nav class="navbar-custom navbar navbar-expand-lg py-3">
     <a class="logo navbar-brand" href="#">LAUAMÄNGU INFO</a>
-
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="pages navbar-nav ml-auto">
             <li class="nav-item">
@@ -32,7 +34,6 @@
                 <a class="nav-link" href="#">Kontakt</a>
             </li>
         </ul>
-
         <form id="search-form" class="form-inline">
             <div class="input-group">
                 <input type="text" class="form-control search-form" placeholder="Otsi">
@@ -40,11 +41,173 @@
                 <button class="btn btn-default" type="submit">
                     <i class="arrow right"></i>
                 </button>
-            </span>
+                </span>
             </div>
         </form>
     </div>
 </nav>
+<main class="container-fluid">
+    <div id="landing-page" class="row justify-content-md-center align-middle pt-3">
+        <div class="game-image col-8 p-5">
+            <img class="img-fluid catan" src="images/catan.jpg" alt="Catan">
+        </div>
+        <div class="game-info col-4 mt-5 pt-5">
+            <div class="game-head-star pb-5">
+                <h1>MÄRTSIKUU TOP #1</h1>
+                <span class="fa fa-star checked"/>
+                <span class="fa fa-star checked"/>
+                <span class="fa fa-star checked"/>
+                <span class="fa fa-star checked"/>
+                <span class="fa fa-star checked"/>
+            </div>
+            <div class="game-text">
+                <h4>Catan</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                    dolore eu
+                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum.</p>
+            </div>
+            <button class="more-button">VAATA ROHKEM</button>
+        </div>
+    </div>
+    <div class="game-box row p-4">
+        <div class="game-box-head pt-2 pl-4">
+            <h2>ENIM MÄNGITUD</h2>
+        </div>
+        <div class="game-box-content row">
+            <div class="game col-4 p-5">
+                <img class="img-fluid game-pic" src="images/catan.jpg" alt="Catan">
+                <div class="game-text text-center">
+                    <h4>Catan</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et
+                        dolore magna aliqua. </p>
+                    <div class="stars">
+                        <span class="fa fa-star checked"/>
+                        <span class="fa fa-star checked"/>
+                        <span class="fa fa-star checked"/>
+                        <span class="fa fa-star checked"/>
+                        <span class="fa fa-star checked"/>
+                    </div>
+                    <div class="review-btn text-center">
+                        <a href="#">Arvustused </a>
+                        <i class="fa fa-angle-right"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="game col-4 p-5">
+                <img class="img-fluid game-pic" src="images/catan.jpg" alt="Catan">
+                <div class="game-text">
+                    <h4>Catan</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et
+                        dolore magna aliqua. </p>
+                    <div class="stars">
+                        <span class="fa fa-star checked"/>
+                        <span class="fa fa-star checked"/>
+                        <span class="fa fa-star checked"/>
+                        <span class="fa fa-star checked"/>
+                        <span class="fa fa-star checked"/>
+                    </div>
+                </div>
+                <div class="review-btn text-center">
+                    <a href="#">Arvustused </a>
+                    <i class="fa fa-angle-right"></i>
+                </div>
+            </div>
+            <div class="game col-4 p-5">
+                <img class="img-fluid game-pic" src="images/catan.jpg" alt="Catan">
+                <div class="game-text">
+                    <h4>Catan</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et
+                        dolore magna aliqua. .</p>
+                    <div class="stars">
+                        <span class="fa fa-star checked"/>
+                        <span class="fa fa-star checked"/>
+                        <span class="fa fa-star checked"/>
+                        <span class="fa fa-star checked"/>
+                        <span class="fa fa-star checked"/>
+                    </div>
+                </div>
+                <div class="review-btn text-center">
+                    <a href="#">Arvustused</a>
+                    <i class="fa fa-angle-right"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="newsletter row">
+        <div class="newsletter-text p-5">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                dolore eu ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                dolore eu</p>
+        </div>
+        <div class="newsletter-join pl-5">
+            <div class="input-group">
+                <input type="text" class="form-control search-form" placeholder="Sinu meiliaadress">
+                <button class="more-button" type="submit">LIITU UUDISKIRJAGA</button>
+            </div>
+        </div>
+    </div>
+    <div class="game-box row p-4">
+        <div class="game-box-head pt-2 pl-4">
+            <h2>UUED TULIJAD</h2>
+        </div>
+        <div class="game-box-content row">
+            <div class="game col-4 p-5">
+                <img class="img-fluid game-pic" src="images/catan.jpg" alt="Catan">
+                <div class="game-text text-center">
+                    <h4>Catan</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et
+                        dolore magna aliqua. </p>
+                </div>
+            </div>
+            <div class="game col-4 p-5">
+                <img class="img-fluid game-pic" src="images/catan.jpg" alt="Catan">
+                <div class="game-text">
+                    <h4>Catan</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et
+                        dolore magna aliqua. </p>
+                </div>
+            </div>
+            <div class="game col-4 p-5">
+                <img class="img-fluid game-pic" src="images/catan.jpg" alt="Catan">
+                <div class="game-text">
+                    <h4>Catan</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et
+                        dolore magna aliqua. .</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="to-forum newsletter row">
+        <div class="newsletter-text p-5">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                dolore eu ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                dolore eu</p>
+        </div>
+        <div class="newsletter-join pl-5">
+            <button class="more-button" type="submit">FOORUMISSE</button>
+        </div>
+    </div>
+</main>
+
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
