@@ -1,0 +1,25 @@
+body {
+    color: white;
+}
+
+a {
+    color: white !important;
+}
+
+.navbar-custom {
+    background-color: #339096;
+}
+
+.navbar-nav > li{
+    padding-left:20px;
+    padding-right:20px;
+}
+
+.form-inline {
+    border-radius: 33px;
+}
+
+/* */
+main {
+	background-color: rgba(14,23,33,255);
+}
