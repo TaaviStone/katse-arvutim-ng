@@ -1,13 +1,25 @@
-body {
-    color: white;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 a {
-    color: white !important;
+    color: #ffff !important;
+}
+
+/* Navigation bar */
+.nav-link {
+    color: #ffff;
 }
 
 .navbar-custom {
     background-color: #339096;
+}
+
+.pages {
+    margin-right: 2vw;
 }
 
 .navbar-nav > li{
@@ -15,11 +27,134 @@ a {
     padding-right:20px;
 }
 
-.form-inline {
-    border-radius: 33px;
+.logo {
+    color: white;
+    font-weight: 1000;
+    letter-spacing: 1px;
 }
 
-/* */
+input[type=text] {
+    border: none;
+    background-color: #66A9AF;
+}
+
+input[type=text]:focus {
+    border: none;
+    background-color: #66A9AF;
+}
+
+input::-webkit-input-placeholder {
+    color:white !important;
+    font-weight: 500;
+}
+
+.search-form  {
+    border-radius: 15px 15px 15px 15px !important;
+}
+
+.arrow {
+    position: absolute;
+    margin-left: -40px;
+    border: solid #B8D6D9;
+    border-width: 0 3px 3px 0;
+    padding: 3px;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+/* Subpage specifc content */
+html {
+	font-family: Verdana;
+}
+body {
+	background-color: rgba(14,23,33,255) !important;
+}
 main {
-	background-color: rgba(14,23,33,255);
+	margin: 0 !important;
+	padding: 0 !important;
+	display: inline-flex !important;
+	flex-direction: column !important;
+	align-items: center !important;
+	color: white;
+}
+#pre-quote {
+	display: inline-flex !important;
+	flex-direction: column !important;
+	align-items: center !important;
+}
+.img-container {
+	margin-top: 3em;
+}
+.main-img {
+	max-width: 100%;
+	border-radius: 2%;
+	object-fit: scale-down;
+	max-height: 50em;
+}
+.main-section {
+	margin-top: 5em;
+}
+.main-section > h2 {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.main-section > p {
+	column-count: 2;
+}
+.fig-container {
+	background-color: rgba(27,46,58,255);
+	margin-top: 2em;
+	align-content: center !important;
+	padding: 1em 0 1em 0;
+}
+.blockquote > p {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+.fig-container > figure > h2 {
+	font-weight: bold;
+	color: gray; 
+}
+.subscription-box {
+	margin-top: 2em;
+}
+.subscription-box p {
+	margin: 1em 0;
+}
+#subscribe {
+	margin-left: 1em;
+	background-color: rgba(51,144,150,255);
+	border: none;
+	font-weight: bold;
+}
+.subscription-box [type="email"] {
+	color: white;
+	background-color: rgba(37,45,54,255);
+	font-weight: bold;
+	border: none;
+}
+footer {
+	align-content: center !important;
+	padding: 2em;
+	margin-top: 5em;
+	background-color: rgba(51,144,150,255);
+}
+footer #lingid {
+	font-weight: bold;
+}
+footer #lingid * {
+	padding: 0 !important;
+	margin: 0.2em 0 0 0 !important;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+footer #info h2{
+	font-weight: bold;
+	font-size: 1.2em;
+}
+#icons svg~svg {
+	margin-left: 0.5em;
 }
