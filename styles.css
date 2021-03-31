@@ -193,4 +193,28 @@ h4 {
     margin-left: 0;
 }
 
+/*Footer*/
+footer {
+    color: #ffff;
+    align-content: center !important;
+    padding: 2em;
+    background-color: rgba(51,144,150,255);
+}
+footer #lingid {
+    font-weight: bold;
+}
+footer #lingid * {
+    padding: 0 !important;
+    margin: 0.2em 0 0 0 !important;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+footer #info h2{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+#icons svg~svg {
+    margin-left: 0.5em;
+}
+
 
